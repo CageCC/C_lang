@@ -40,4 +40,50 @@ C 原本是为了开发 UNIX 操作系统而设计的语言
 
 * 最早的 UNIX是用汇编来写的
 
-* 
+* UNIX 的开发者KenTompson开发了一种称为‘B’的语音。 <br>
+    B语音不是直接生成机器码，而是由编译器生成栈式 <br>
+    机(Stack Machine)用的中间码，中间码通过解析器执行。
+
+* 在1971年， Ken Tompson的同事Dennis Ritchie 对B <br>
+    语音做了改良，追加了char数据类型，并且让B 语音 <br>
+    可以直接生成PDP-11的机器码。<br>
+
+    在一段时间内，称改良的B语音为NB( New B),
+    之后改称为C 语音。
+
+##### 01.1.6 C的理念
+
++ 请信任程序员(Trust the promgrammer)
+
++ 不要阻止程序员去做需要做的工作 (Don't prevent the promgrammer from doing what needs to done)
+
++ 保持语音的小巧和简单(Keep the language small and simple)
+
++ 为每一种操作只提供一种方法 (Provide only way to do an operation)
+
++ 就算不能保证可移植性，也要追求运行效率(Make it fast, even if it is not guaranteed to be portable)
+
+
+
+##### 01.2 关于指针
+
+    指针是一种保存变量的地址的变量
+
+
+##### 01.2.1 指针类型
+
+    指针类型(pointer type) 可由函数类型，对象类型或不完全的
+    类型派生， 派生指针类型的类型称为引用类型。
+
+    由引用类型T 派生的指针类型有时称为“指向T的指针”。
+
+
+    指针类型 和 int类型等类型一样，都是数据类型，
+    也存在某类型的变量 和 某类型的值。
+
+
+    先有“指针类型” 
+    才有指针类型的变量 和 指针类型的值
+    不同的是，指针类型的值是某个变量的地址。
+    
+
